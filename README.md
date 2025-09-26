@@ -7,7 +7,7 @@ A **Java-based Library Management System** built using **JDBC, Servlets, JSP**, 
 ## 🌟 Features
 
 ### Admin
-- Add, update, and remove books
+- Add, view, and remove books
 - View all users and issued books
 - Manage transactions (issue/return records)
 
@@ -61,9 +61,9 @@ Open src → main → webapp → WEB-INF → config → config.properties
 Update:
 
 ```bash
-url = "jdbc:mysql://localhost:3306/LibraryManagementSystem";
-user = "root";
-password = "your_mysql_password";
+url = jdbc:mysql://localhost:3306/LibraryManagementSystem
+user = root
+password = your_mysql_password
 ```
 
 ### 5. Run on Tomcat
